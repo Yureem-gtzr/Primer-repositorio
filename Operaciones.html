@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Operaciones</title>
+        <script>
+            function suma() {
+                let numero1 = Number(prompt("Dame un numero"))
+                let numero2 = Number(prompt("Dame otro numero"))
+                let resultado = numero1+numero2
+                alert(`La suma de ${numero1}+${numero2} es ${resultado}`)
+            }
+            function resta() {
+                let numero1 = Number(prompt("Dame un numero"))
+                let numero2 = Number(prompt("Dame otro numero"))
+                let resultado = numero1-numero2
+                alert(`La suma de ${numero1}-${numero2} es ${resultado}`)
+            }
+            function multiplicacion() {
+                let numero1 = Number(prompt("Dame un numero"))
+                let numero2 = Number(prompt("Dame otro numero"))
+                let resultado = numero1*numero2
+                alert(`La suma de ${numero1}*${numero2} es ${resultado}`)
+            }
+            function division() {
+                let numero1 = Number(prompt("Dame un numero"))
+                let numero2 = Number(prompt("Dame otro numero"))
+                let resultado = numero1/numero2
+                alert(`La suma de ${numero1}/${numero2} es ${resultado}`)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Operaicones aritmeticas</h1>
+        <hr>
+        <h2>Descripccion</h2>
+        <p>
+            Este programa suma, resta, multiplica y divide 2 numeros
+        </p>
+        <button onclick="suma()">Suma</button>
+        <button onclick="resta()">Resta</button>
+        <button onclick="multiplicacion()">Multiplicacion</button>
+        <button onclick="division()">Division</button>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Edades</title>
+
+        <link type="text/css" rel="stylesheet" href="main.css">
+
+        <script>
+            function edades() {
+                let edad1 = Number(prompt("Dame la primera edad"))
+                let edad2 = Number(prompt("Dame la segunda edad"))
+                let edad3 = Number(prompt("Dame la tercera edad"))
+                let edad4 = Number(prompt("Dame la cuarta edad"))
+                let edad5 = Number(prompt("Dame la quinta edad"))
+                let resultado1 = edad1+edad2+edad3+edad4+edad5
+                let resultado2 = resultado1/5
+                alert(`El promedio de edad es de ${resultado2} años`)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Promedio edades</h1>
+        <hr>
+        <h2>Descripccion</h2>
+        <p>
+        Este programa calcula el promedio de 5 edades
+        </p>
+        <button onclick="edades()">Promedio de edades</button>
+    </body>
+</html>

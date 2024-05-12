@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Edad</title>
+        <script>
+            function edad() {
+                let edadPersona = Number(prompt("¿Cual es tu edad?"))
+                let resultado = edadPersona*365
+                alert(`Tu edad en dias es ${resultado}`)
+            } 
+            function acerca() {
+                alert(`Este programa fue creado por Hugo Yurem Gutiérrez Ramírez`)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Edad en dias</h1>
+        <hr>
+        <h2>Descripccion</h2>
+        <p>
+            Este programa te dice tu edad en dias
+        </p>
+        <button onclick="edad()">Edad</button>
+        <button onclick="acerca()">Acerca de</button>
+    </body>
+</html>

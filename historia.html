@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Historia de terror</title>
+        <script>
+            function saludo() {
+                let personaje1 = prompt("¿Como se llamara tu primer personaje?")
+                let personaje2 = prompt("¿Como se llamara tu segundo personaje?")
+                let lugar = prompt("¿Cual sera el lugar de la historia?")
+                let fecha = prompt("¿Cual sera el dia de la historia?")
+                let situacion = prompt("¿Cual sera la situacion?")
+                alert(`${personaje1} y ${personaje2} vivieron una historia de trerror en ${lugar} el dia ${fecha} que consistio en ${situacion} ` )
+            }
+            function despedida() {
+                alert(`Autores de este programa:Hugo Yurem Gutierrez Ramirez y Victor Manuel Mendoza Rivera`)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Histoia de terror</h1>
+        <hr>
+        <h2>Historia de terror 2APV</h2>
+        <p>
+            Esta es una historia de terror con 2 personajes, un lugar, una fecha y una situacion 
+        </p>
+        <button onclick="saludo()">Historia</button>
+        <button onclick="despedida()">Acerca de</button>
+    </body>
+</html>

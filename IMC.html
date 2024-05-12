@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>IMC</title>
+        <script>
+            function imc() {
+                let peso = Number(prompt("¿Cual es tu peso?"))
+                let altura = Number(prompt("¿Cual es tu altura?"))
+                let resultado1 = altura*altura
+                let resultado2 = peso/resultado1
+                alert(`Tu imc es de ${resultado2}`)
+            } 
+        </script>
+    </head>
+    <body>
+        <h1>Indice de Masa Corporal</h1>
+        <hr>
+        <h2>Descripccion</h2>
+        <p>
+            Este programa calcula tu indice de masa corporal
+        </p>
+        <p>
+            Definir peso en (kg) y altura en (metros) 
+        </p>
+        <button onclick="imc()">Caulcular</button>
+    </body>
+</html>
